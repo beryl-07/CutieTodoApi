@@ -1,0 +1,96 @@
+2023-11-16 02:17:36 error: uncaughtException: Cannot find module '/home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node'
+Require stack:
+- /home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/bcrypt.js
+- /home/bryl07/Documents/CutieToDoApi/src/services/auth.service.ts
+- /home/bryl07/Documents/CutieToDoApi/src/controllers/auth.controller.ts
+- /home/bryl07/Documents/CutieToDoApi/src/routes/auth.route.ts
+- /home/bryl07/Documents/CutieToDoApi/src/server.ts
+Error: Cannot find module '/home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node'
+Require stack:
+- /home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/bcrypt.js
+- /home/bryl07/Documents/CutieToDoApi/src/services/auth.service.ts
+- /home/bryl07/Documents/CutieToDoApi/src/controllers/auth.controller.ts
+- /home/bryl07/Documents/CutieToDoApi/src/routes/auth.route.ts
+- /home/bryl07/Documents/CutieToDoApi/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/home/bryl07/Documents/CutieToDoApi/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/home/bryl07/Documents/CutieToDoApi/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (/home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Object.require.extensions.<computed> [as .js] (/home/bryl07/Documents/CutieToDoApi/node_modules/ts-node/src/index.ts:1608:43)
+2023-11-16 13:54:28 error: uncaughtException: Cannot find module '/home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node'
+Require stack:
+- /home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/bcrypt.js
+- /home/bryl07/Documents/CutieToDoApi/src/services/auth.service.ts
+- /home/bryl07/Documents/CutieToDoApi/src/controllers/auth.controller.ts
+- /home/bryl07/Documents/CutieToDoApi/src/routes/auth.route.ts
+- /home/bryl07/Documents/CutieToDoApi/src/server.ts
+Error: Cannot find module '/home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node'
+Require stack:
+- /home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/bcrypt.js
+- /home/bryl07/Documents/CutieToDoApi/src/services/auth.service.ts
+- /home/bryl07/Documents/CutieToDoApi/src/controllers/auth.controller.ts
+- /home/bryl07/Documents/CutieToDoApi/src/routes/auth.route.ts
+- /home/bryl07/Documents/CutieToDoApi/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/home/bryl07/Documents/CutieToDoApi/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/home/bryl07/Documents/CutieToDoApi/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (/home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Object.require.extensions.<computed> [as .js] (/home/bryl07/Documents/CutieToDoApi/node_modules/ts-node/src/index.ts:1608:43)
+2023-11-16 17:05:28 error: uncaughtException: Cannot find module '/home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node'
+Require stack:
+- /home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/bcrypt.js
+- /home/bryl07/Documents/CutieToDoApi/src/services/auth.service.ts
+- /home/bryl07/Documents/CutieToDoApi/src/controllers/auth.controller.ts
+- /home/bryl07/Documents/CutieToDoApi/src/routes/auth.route.ts
+- /home/bryl07/Documents/CutieToDoApi/src/server.ts
+Error: Cannot find module '/home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node'
+Require stack:
+- /home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/bcrypt.js
+- /home/bryl07/Documents/CutieToDoApi/src/services/auth.service.ts
+- /home/bryl07/Documents/CutieToDoApi/src/controllers/auth.controller.ts
+- /home/bryl07/Documents/CutieToDoApi/src/routes/auth.route.ts
+- /home/bryl07/Documents/CutieToDoApi/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/home/bryl07/Documents/CutieToDoApi/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/home/bryl07/Documents/CutieToDoApi/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (/home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Object.require.extensions.<computed> [as .js] (/home/bryl07/Documents/CutieToDoApi/node_modules/ts-node/src/index.ts:1608:43)
+2023-11-16 17:45:12 error: uncaughtException: Cannot find module '/home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node'
+Require stack:
+- /home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/bcrypt.js
+- /home/bryl07/Documents/CutieToDoApi/src/services/auth.service.ts
+- /home/bryl07/Documents/CutieToDoApi/src/controllers/auth.controller.ts
+- /home/bryl07/Documents/CutieToDoApi/src/routes/auth.route.ts
+- /home/bryl07/Documents/CutieToDoApi/src/server.ts
+Error: Cannot find module '/home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node'
+Require stack:
+- /home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/bcrypt.js
+- /home/bryl07/Documents/CutieToDoApi/src/services/auth.service.ts
+- /home/bryl07/Documents/CutieToDoApi/src/controllers/auth.controller.ts
+- /home/bryl07/Documents/CutieToDoApi/src/routes/auth.route.ts
+- /home/bryl07/Documents/CutieToDoApi/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/home/bryl07/Documents/CutieToDoApi/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/home/bryl07/Documents/CutieToDoApi/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (/home/bryl07/Documents/CutieToDoApi/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Object.require.extensions.<computed> [as .js] (/home/bryl07/Documents/CutieToDoApi/node_modules/ts-node/src/index.ts:1608:43)

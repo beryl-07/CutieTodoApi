@@ -1,0 +1,55 @@
+2023-11-17 20:51:44 error: [GET] /users/974ba1f1-451b-43d8-8d74-8e42980a5272 >> StatusCode:: 409, Message:: User doesn't exist
+2023-11-17 20:53:12 error: uncaughtException: Invalid regular expression: /^^\/users\/(?:([^\/]+?))([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}\/?$/i: Unterminated group
+SyntaxError: Invalid regular expression: /^^\/users\/(?:([^\/]+?))([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}\/?$/i: Unterminated group
+    at new RegExp (<anonymous>)
+    at pathtoRegexp (/home/bryl07/Documents/CutieToDoApi/node_modules/path-to-regexp/index.js:128:10)
+    at new Layer (/home/bryl07/Documents/CutieToDoApi/node_modules/express/lib/router/layer.js:45:17)
+    at Function.route (/home/bryl07/Documents/CutieToDoApi/node_modules/express/lib/router/index.js:505:15)
+    at Function.proto.<computed> [as put] (/home/bryl07/Documents/CutieToDoApi/node_modules/express/lib/router/index.js:520:22)
+    at UserRoute.initializeRoutes (/home/bryl07/Documents/CutieToDoApi/src/routes/users.route.ts:20:17)
+    at new UserRoute (/home/bryl07/Documents/CutieToDoApi/src/routes/users.route.ts:13:10)
+    at Object.<anonymous> (/home/bryl07/Documents/CutieToDoApi/src/server.ts:9:22)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module.m._compile (/home/bryl07/Documents/CutieToDoApi/node_modules/ts-node/src/index.ts:1618:23)
+2023-11-17 20:54:20 error: uncaughtException: Invalid regular expression: /^^\/users\/(?:([^\/]+?))([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}\/?$/i: Unterminated group
+SyntaxError: Invalid regular expression: /^^\/users\/(?:([^\/]+?))([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}\/?$/i: Unterminated group
+    at new RegExp (<anonymous>)
+    at pathtoRegexp (/home/bryl07/Documents/CutieToDoApi/node_modules/path-to-regexp/index.js:128:10)
+    at new Layer (/home/bryl07/Documents/CutieToDoApi/node_modules/express/lib/router/layer.js:45:17)
+    at Function.route (/home/bryl07/Documents/CutieToDoApi/node_modules/express/lib/router/index.js:505:15)
+    at Function.proto.<computed> [as put] (/home/bryl07/Documents/CutieToDoApi/node_modules/express/lib/router/index.js:520:22)
+    at UserRoute.initializeRoutes (/home/bryl07/Documents/CutieToDoApi/src/routes/users.route.ts:20:17)
+    at new UserRoute (/home/bryl07/Documents/CutieToDoApi/src/routes/users.route.ts:13:10)
+    at Object.<anonymous> (/home/bryl07/Documents/CutieToDoApi/src/server.ts:9:22)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module.m._compile (/home/bryl07/Documents/CutieToDoApi/node_modules/ts-node/src/index.ts:1618:23)
+2023-11-17 21:00:10 error: [PUT] /users/974ba1f1-451b-43d8-8d74-8e42980a5274 >> StatusCode:: 500, Message:: data and salt arguments required
+2023-11-17 21:03:35 error: uncaughtException: UpdateUserDto is not defined
+ReferenceError: UpdateUserDto is not defined
+    at UserRoute.initializeRoutes (/home/bryl07/Documents/CutieToDoApi/src/routes/users.route.ts:20:140)
+    at new UserRoute (/home/bryl07/Documents/CutieToDoApi/src/routes/users.route.ts:13:10)
+    at Object.<anonymous> (/home/bryl07/Documents/CutieToDoApi/src/server.ts:9:22)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module.m._compile (/home/bryl07/Documents/CutieToDoApi/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/bryl07/Documents/CutieToDoApi/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+2023-11-17 21:04:02 error: [PUT] /users/974ba1f1-451b-43d8-8d74-8e42980a5274 >> StatusCode:: 500, Message:: data and salt arguments required
+2023-11-17 21:04:47 error: [PUT] /users/974ba1f1-451b-43d8-8d74-8e42980a5274 >> StatusCode:: 500, Message:: data and salt arguments required
+2023-11-17 21:05:48 error: [PUT] /users/974ba1f1-451b-43d8-8d74-8e42980a5274 >> StatusCode:: 500, Message:: data and salt arguments required
+2023-11-17 21:09:40 error: [PUT] /users/974ba1f1-451b-43d8-8d74-8e42980a5274 >> StatusCode:: 400, Message:: password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password must be a string
+2023-11-17 21:10:35 error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:952:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+    at writeOrBuffer (node:internal/streams/writable:399:12)
+    at _write (node:internal/streams/writable:340:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:344:10)
+    at Console.log (/home/bryl07/Documents/CutieToDoApi/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/bryl07/Documents/CutieToDoApi/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/home/bryl07/Documents/CutieToDoApi/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/home/bryl07/Documents/CutieToDoApi/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/home/bryl07/Documents/CutieToDoApi/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+2023-11-17 21:54:00 error: [PUT] /users/974ba1f1-451b-43d8-8d74-8e42980a5274 >> StatusCode:: 500, Message:: data and salt arguments required

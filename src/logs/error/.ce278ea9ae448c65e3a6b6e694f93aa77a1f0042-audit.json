@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/bryl07/Documents/CutieToDoApi/src/logs/error/.ce278ea9ae448c65e3a6b6e694f93aa77a1f0042-audit.json",
+    "files": [
+        {
+            "date": 1700097454700,
+            "name": "/home/bryl07/Documents/CutieToDoApi/src/logs/error/2023-11-16.log",
+            "hash": "eca1c236426965187cb445f4fddc644a17f605f059314f1b1ace217dfd91f9f6"
+        },
+        {
+            "date": 1700210166162,
+            "name": "/home/bryl07/Documents/CutieToDoApi/src/logs/error/2023-11-17.log",
+            "hash": "939b5a5c0c92009d75e01ffc21b62e0212678612037ab4ff88fe9a11b33001c5"
+        }
+    ],
+    "hashType": "sha256"
+}
