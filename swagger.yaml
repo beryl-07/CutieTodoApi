@@ -109,11 +109,15 @@ definitions:
     type: object
     required:
         - email
+        - name
         - password
     properties:
       email:
         type: string
         description: user Email
+      name:
+        type: string
+        description: name Email
       password:
         type: string
         description: user Password
